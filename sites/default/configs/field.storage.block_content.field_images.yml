@@ -1,0 +1,30 @@
+uuid: 6a2174f3-bda2-42a2-8620-0245ad09e74d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - file
+    - image
+id: block_content.field_images
+field_name: field_images
+entity_type: block_content
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: cba7cd4b-b6dc-43c5-b34e-b4bf14dd5bfc
+    alt: Drupal
+    title: Images
+    width: 175
+    height: 200
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

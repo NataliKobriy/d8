@@ -1,0 +1,31 @@
+uuid: 223156da-a51c-4b49-8545-efa606ce32de
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3c6e98f5-91d9-48e2-95e7-956ea351c832'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: mapslutsk
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:3c6e98f5-91d9-48e2-95e7-956ea351c832'
+settings:
+  id: 'block_content:3c6e98f5-91d9-48e2-95e7-956ea351c832'
+  label: 'maps Lutsk'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

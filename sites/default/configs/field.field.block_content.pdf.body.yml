@@ -1,0 +1,22 @@
+uuid: 7776702a-b5c5-455a-94e4-de33724b7eb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.pdf.body
+field_name: body
+entity_type: block_content
+bundle: pdf
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

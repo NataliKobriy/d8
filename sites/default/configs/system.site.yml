@@ -1,0 +1,14 @@
+uuid: 3631e842-1ae2-4e42-87d0-bd3509789c44
+name: d8
+mail: natalo4ka_kanjuka@mail.ru
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
