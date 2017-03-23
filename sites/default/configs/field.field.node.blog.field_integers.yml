@@ -1,0 +1,21 @@
+uuid: b3da8f55-e50f-4734-8ec9-eb32cf733bdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_integers
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_integers
+field_name: field_integers
+entity_type: node
+bundle: blog
+label: Integers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

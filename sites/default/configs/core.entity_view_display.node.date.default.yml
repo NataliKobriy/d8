@@ -1,0 +1,27 @@
+uuid: 5e540cc2-a436-4d76-a928-c0d309605231
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.date.body
+    - node.type.date
+  module:
+    - text
+    - user
+id: node.date.default
+targetEntityType: node
+bundle: date
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+  sharethis:
+    weight: 10
+hidden:
+  addtoany: true

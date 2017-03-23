@@ -1,0 +1,26 @@
+uuid: d408fa7b-b5b3-4936-8876-191ccfcf639a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.taxonomy_term.body
+    - node.type.taxonomy_term
+  module:
+    - text
+    - user
+id: node.taxonomy_term.teaser
+targetEntityType: node
+bundle: taxonomy_term
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

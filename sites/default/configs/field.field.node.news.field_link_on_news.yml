@@ -1,0 +1,23 @@
+uuid: b190411e-39cf-4ef7-b91a-02e820ad5b2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_on_news
+    - node.type.news
+  module:
+    - link
+id: node.news.field_link_on_news
+field_name: field_link_on_news
+entity_type: node
+bundle: news
+label: 'Link on news'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

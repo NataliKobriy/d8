@@ -1,0 +1,30 @@
+uuid: eb499c73-1034-4ffa-8084-0505e022f0a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_f
+    - field_collection.field_collection.field_f
+    - node.type.g
+  module:
+    - field_collection
+id: node.g.field_f
+field_name: field_f
+entity_type: node
+bundle: g
+label: f
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:field_collection_item'
+  handler_settings:
+    target_bundles:
+      field_f: field_f
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: field_collection

@@ -1,0 +1,18 @@
+uuid: 4a5957f1-a7df-45dd-8540-b131d2e4fd94
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Date
+type: date
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

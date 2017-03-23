@@ -1,0 +1,7 @@
+uuid: e7857af4-ba94-45c0-84c6-919e80df452b
+langcode: en
+status: false
+dependencies: {  }
+formId: node_taxonomy_term_form
+captchaType: default
+label: null

@@ -1,0 +1,24 @@
+uuid: 05484128-07fa-41cf-8246-60dec4264842
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.taxonomy_term.body
+    - node.type.taxonomy_term
+  module:
+    - text
+    - user
+id: node.taxonomy_term.default
+targetEntityType: node
+bundle: taxonomy_term
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
