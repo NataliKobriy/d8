@@ -1,0 +1,31 @@
+uuid: eef94931-d0a6-4145-ae39-ad7a0256d190
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_field_coll.field_description_drupal
+    - field.field.field_collection_item.field_field_coll.field_im
+    - field_collection.field_collection.field_field_coll
+  module:
+    - image
+    - text
+id: field_collection_item.field_field_coll.default
+targetEntityType: field_collection_item
+bundle: field_field_coll
+mode: default
+content:
+  field_description_drupal:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_im:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden: {  }

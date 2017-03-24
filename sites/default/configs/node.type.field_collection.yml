@@ -1,4 +1,4 @@
-uuid: 280fc56f-9c27-4c2c-a280-1c8f6661e315
+uuid: ea49ef71-0d59-45d4-8b64-4f9144a59477
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: g
-type: g
-description: g
+name: 'Field collection'
+type: field_collection
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1

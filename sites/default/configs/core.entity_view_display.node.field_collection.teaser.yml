@@ -1,17 +1,17 @@
-uuid: 28449931-3f3c-4b54-b970-a72a41ac171f
+uuid: c8c99768-9af5-4dc7-9427-7e1563099b45
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.g.body
-    - node.type.g
+    - field.field.node.field_collection.body
+    - node.type.field_collection
   module:
     - text
     - user
-id: node.g.teaser
+id: node.field_collection.teaser
 targetEntityType: node
-bundle: g
+bundle: field_collection
 mode: teaser
 content:
   body:
@@ -23,4 +23,7 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+  sharethis:
+    weight: 10
+hidden:
+  addtoany: true

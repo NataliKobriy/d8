@@ -1,18 +1,18 @@
-uuid: eb499c73-1034-4ffa-8084-0505e022f0a3
+uuid: 358d11d9-096b-4203-9df2-fab85cf3c899
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_f
-    - field_collection.field_collection.field_f
-    - node.type.g
+    - field.storage.node.field_field_coll
+    - field_collection.field_collection.field_field_coll
+    - node.type.field_collection
   module:
     - field_collection
-id: node.g.field_f
-field_name: field_f
+id: node.field_collection.field_field_coll
+field_name: field_field_coll
 entity_type: node
-bundle: g
-label: f
+bundle: field_collection
+label: fc
 description: ''
 required: false
 translatable: false
@@ -22,7 +22,7 @@ settings:
   handler: 'default:field_collection_item'
   handler_settings:
     target_bundles:
-      field_f: field_f
+      field_field_coll: field_field_coll
     sort:
       field: _none
     auto_create: false

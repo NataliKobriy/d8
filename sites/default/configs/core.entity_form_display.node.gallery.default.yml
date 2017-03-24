@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.gallery.body
+    - field.field.node.gallery.field_description
     - field.field.node.gallery.field_photo
     - image.style.thumbnail
     - node.type.gallery
@@ -29,6 +30,13 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_description:
+    weight: 33
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
   field_photo:
     weight: 32
     settings:

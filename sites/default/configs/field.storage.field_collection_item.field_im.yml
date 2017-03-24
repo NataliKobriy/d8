@@ -1,18 +1,19 @@
-uuid: 2846bcfa-4666-4188-9df7-3e5246a28705
+uuid: d165ddee-6f20-45cc-a441-6d7fe0a83672
 langcode: en
 status: true
 dependencies:
   module:
+    - field_collection
     - file
     - image
-    - node
-id: node.field_i
-field_name: field_i
-entity_type: node
+id: field_collection_item.field_im
+field_name: field_im
+entity_type: field_collection_item
 type: image
 settings:
+  uri_scheme: public
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
@@ -20,7 +21,6 @@ settings:
   target_type: file
   display_field: false
   display_default: false
-  uri_scheme: public
 module: image
 locked: false
 cardinality: 1

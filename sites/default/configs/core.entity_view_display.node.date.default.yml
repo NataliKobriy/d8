@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.date.body
+    - field.field.node.date.field_date
     - node.type.date
   module:
+    - datetime
     - text
     - user
 id: node.date.default
@@ -19,6 +21,14 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+  field_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
   links:
     weight: 100
   sharethis:

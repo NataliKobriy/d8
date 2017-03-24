@@ -1,21 +1,18 @@
-uuid: fbf48fd8-4ec9-43df-bec5-68a7b2fa4cdd
+uuid: 2c6c3b8a-e657-4279-bff3-f29da2479310
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.g.body
-    - field.field.node.g.field_f
-    - field.field.node.g.field_i
-    - image.style.thumbnail
-    - node.type.g
+    - field.field.node.field_collection.body
+    - field.field.node.field_collection.field_field_coll
+    - node.type.field_collection
   module:
     - field_collection
-    - image
     - path
     - text
-id: node.g.default
+id: node.field_collection.default
 targetEntityType: node
-bundle: g
+bundle: field_collection
 mode: default
 content:
   body:
@@ -31,18 +28,11 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
-  field_f:
+  field_field_coll:
     weight: 32
     settings: {  }
     third_party_settings: {  }
     type: field_collection_embed
-  field_i:
-    weight: 33
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
   path:
     type: path
     weight: 30

@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.date.body
+    - field.field.node.date.field_date
     - node.type.date
   module:
+    - datetime
     - path
     - text
 id: node.date.default
@@ -26,6 +28,11 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_date:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   path:
     type: path
     weight: 30

@@ -1,20 +1,18 @@
-uuid: 8472205c-cba9-4219-8c14-e22823515742
+uuid: 3d464096-1401-4b7c-92ef-85a98927d109
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.g.body
-    - field.field.node.g.field_f
-    - field.field.node.g.field_i
-    - node.type.g
+    - field.field.node.field_collection.body
+    - field.field.node.field_collection.field_field_coll
+    - node.type.field_collection
   module:
     - field_collection
-    - image
     - text
     - user
-id: node.g.default
+id: node.field_collection.default
 targetEntityType: node
-bundle: g
+bundle: field_collection
 mode: default
 content:
   body:
@@ -23,20 +21,15 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-  field_f:
+  field_field_coll:
     weight: 102
     label: above
     settings: {  }
     third_party_settings: {  }
     type: field_collection_list
-  field_i:
-    weight: 103
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
   links:
     weight: 100
-hidden: {  }
+  sharethis:
+    weight: 10
+hidden:
+  addtoany: true

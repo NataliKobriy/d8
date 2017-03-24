@@ -1,16 +1,16 @@
-uuid: d83c16eb-be1e-443f-a8e5-838fd0929972
+uuid: f18679f7-b056-4705-839e-1db159747a7c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.g
+    - node.type.field_collection
   module:
     - text
-id: node.g.body
+id: node.field_collection.body
 field_name: body
 entity_type: node
-bundle: g
+bundle: field_collection
 label: Body
 description: ''
 required: false

@@ -1,0 +1,20 @@
+uuid: b25c81ad-a933-4168-84e4-471b9989d708
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - node
+id: node.field_field_coll
+field_name: field_field_coll
+entity_type: node
+type: field_collection
+settings:
+  target_type: field_collection_item
+module: field_collection
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
