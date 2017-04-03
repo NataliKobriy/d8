@@ -1,0 +1,51 @@
+/**
+ * Node styling.
+ */
+
+.node-preview-container {
+  margin-top: -($grid-gutter-width / 2);
+}
+
+.node-preview-form-select {
+  padding: ($grid-gutter-width / 2);
+}
+#error {
+	background-color: red;
+}
+.views-view-grid {
+	display: block;
+	background-position: center;
+}
+.field-content {
+	color: black;
+	font-weight: 600;
+	ext-align: center;
+}
+.buu, .slash {
+	color: red;
+	font-weight: 600;
+}
+.field-content a { 
+    text-decoration: none; 
+    color: black;
+}
+span.field-content, div.field-content.slash {
+	text-align:center;
+}
+img.img-responsive {
+    display: block;
+    margin: 0 auto;
+}
+div.views-field.views-field-title {
+	text-align: center;
+}
+.view-content {
+	text-align: center;
+}
+div.authors.views-row {
+	display: inline-block;
+}
+div.views-field.views-field-title span.field-content a{
+	color: red;
+	text-transform: uppercase;
+}
